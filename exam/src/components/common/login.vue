@@ -9,7 +9,7 @@
             <img src="../../assets/img/logo.png" alt="">
           </div>
           <i class="iconfont icon-kaoshi"></i><span class="title">在线考试系统</span>
-        </div>        
+        </div>
         <div class="bottom">
           <div class="container">
             <p class="title">账号登录</p>
@@ -52,7 +52,7 @@ export default {
       role: 2,
       labelPosition: 'left',
       formLabelAlign: {
-        username: '20154084',
+        username: '2022001',
         password: '123456'
       }
     }
@@ -146,16 +146,16 @@ a:link {
   background-color: #fff;
 }
 #login {
-  position: relative; 
+  position: relative;
 }
 #login .logo {
-  position: absolute; 
-  top: 10px; 
-  left: 10px; 
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 #login .logo img {
-  height: 80px; 
-  width: auto; 
+  height: 80px;
+  width: auto;
 }
 #login .bg {
   position: fixed;
@@ -188,7 +188,7 @@ a:link {
 #login .bottom {
   display: flex;
   justify-content: center;
-  background-color: rgba(173, 216, 230, 0.75); 
+  background-color: rgba(173, 216, 230, 0.75);
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
