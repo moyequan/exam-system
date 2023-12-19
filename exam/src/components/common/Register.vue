@@ -16,8 +16,8 @@
                 <el-form-item label="用户名">
                   <el-input v-model.number="formLabelAlign.username" placeholder="请输入用户名"></el-input>
                 </el-form-item>
-                <el-form-item label="邮箱">
-                  <el-input v-model.number="formLabelAlign.email" placeholder="请输入邮箱"></el-input>
+                <el-form-item label="电话号">
+                  <el-input v-model.number="formLabelAlign.phone" placeholder="请输入电话号码"></el-input>
                 </el-form-item>
                 <el-form-item label="密码">
                   <el-input v-model="formLabelAlign.password" placeholder="请输入密码" type='password'></el-input>
@@ -36,7 +36,7 @@
       </el-row>
     </div>
   </template>
-  
+
   <script>
   import { mapState } from 'vuex'
   export default {
@@ -80,11 +80,11 @@
     },
     computed: mapState(["userInfo"]),
     mounted() {
-  
+
     }
   }
   </script>
-  
+
   <style lang="less" scoped>
 #registration {
   font-size: 14px;
@@ -200,4 +200,3 @@
 }
 </style>
 
-  
