@@ -8,13 +8,13 @@
               <img src="../../assets/img/logo.png" alt="">
             </div>
             <i class="iconfont icon-kaoshi"></i><span class="title">找回密码</span>
-          </div>        
+          </div>
           <div class="bottom">
             <div class="container">
               <p class="title">找回密码</p>
               <el-form :label-position="labelPosition" label-width="80px" :model="formLabelAlign">
-                <el-form-item label="邮箱">
-                  <el-input v-model="formLabelAlign.email" placeholder="请输入注册邮箱"></el-input>
+                <el-form-item label="手机号">
+                  <el-input v-model="formLabelAlign.phome" placeholder="请输入注册手机号"></el-input>
                 </el-form-item>
                 <div class="submit">
                   <el-button type="primary" class="reset-password" @click="resetPassword">重置密码</el-button>
@@ -29,10 +29,10 @@
       </el-row>
     </div>
   </template>
-  
+
   <script>
   import { mapState } from 'vuex';
-  
+
   export default {
     name: "forgot-password",
     data() {
@@ -59,7 +59,7 @@
     }
   };
   </script>
-  
+
   <style lang="less" scoped>
   #forgot-password {
     font-size: 14px;
@@ -67,18 +67,18 @@
     background-color: #fff;
     position: relative;
   }
-  
+
   #forgot-password .logo {
     position: absolute;
     top: 10px;
     left: 10px;
   }
-  
+
   #forgot-password .logo img {
     height: 80px;
     width: auto;
   }
-  
+
   #forgot-password .bg {
     position: fixed;
     top: 0;
@@ -89,13 +89,13 @@
     background: url('../../assets/img/loginbg.jpg') center top / cover no-repeat;
     background-color: #b6bccdd1 !important;
   }
-  
+
   #forgot-password .main-container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   #forgot-password .main-container .top {
     margin-top: 100px;
     font-size: 30px;
@@ -103,15 +103,15 @@
     display: flex;
     justify-content: center;
   }
-  
+
   #forgot-password .top .icon-kaoshi {
     font-size: 80px;
   }
-  
+
   #forgot-password .top .title {
     margin-top: 20px;
   }
-  
+
   #forgot-password .bottom {
     display: flex;
     justify-content: center;
@@ -119,16 +119,16 @@
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  
+
   #forgot-password .bottom .title {
     text-align: center;
     font-size: 30px;
   }
-  
+
   .bottom .container .title {
     margin: 30px 0px;
   }
-  
+
   .bottom .submit .reset-password {
     width: 100%;
     background-color: #04468b;
@@ -136,26 +136,25 @@
     margin: 20px 0px 10px 0px;
     padding: 15px 20px;
   }
-  
+
   .bottom .submit {
     display: flex;
     justify-content: center;
   }
-  
+
   .options {
     margin-bottom: 40px;
     color: #ff962a;
     display: flex;
     justify-content: space-between;
   }
-  
+
   .options > a {
     color: #ff962a;
   }
-  
+
   .options .login span:nth-child(1) {
     color: #8C8C8C;
   }
   </style>
-  
-  
+
