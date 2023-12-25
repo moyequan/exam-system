@@ -167,16 +167,16 @@ CREATE TABLE `message` (
 -- ----------------------------
 -- Records of message
 -- ----------------------------
-INSERT INTO `message` VALUES ('2', '小王', '向大佬学习', '2019-03-18');
-INSERT INTO `message` VALUES ('15', '小马', '膜拜大佬', '2019-03-18');
-INSERT INTO `message` VALUES ('16', '小莫', '可以教教我妈', '2019-03-18');
-INSERT INTO `message` VALUES ('20', '小李', '好好好好好好', '2019-03-18');
-INSERT INTO `message` VALUES ('21', '小华', '太酷了', '2019-03-18');
-INSERT INTO `message` VALUES ('22', '路人甲', '太棒了', '2019-03-18');
-INSERT INTO `message` VALUES ('25', '小米', '加油', '2019-03-18');
-INSERT INTO `message` VALUES ('26', '小v', '红红火火恍恍惚惚', '2019-03-18');
-INSERT INTO `message` VALUES ('27', '小花', '非常好', '2019-03-31');
-INSERT INTO `message` VALUES ('35', '贝塔', '不错不错', '2019-09-05');
+INSERT INTO `message` VALUES ('2', '小王', '向大佬学习', '2023-12-18');
+INSERT INTO `message` VALUES ('15', '小马', '膜拜大佬', '2023-12-18');
+INSERT INTO `message` VALUES ('16', '小莫', '可以教教我吗？', '2023-12-18');
+INSERT INTO `message` VALUES ('20', '小李', '好好好好好好', '2023-12-18');
+INSERT INTO `message` VALUES ('21', '小华', '太酷了', '2023-12-18');
+INSERT INTO `message` VALUES ('22', '路人甲', '太棒了', '2023-12-18');
+INSERT INTO `message` VALUES ('25', '小米', '加油', '2023-12-18');
+INSERT INTO `message` VALUES ('26', '小v', '红红火火恍恍惚惚', '2023-12-18');
+INSERT INTO `message` VALUES ('27', '小花', '非常好', '2023-12-18');
+INSERT INTO `message` VALUES ('35', '贝塔', '不错不错', '2023-12-18');
 INSERT INTO `message` VALUES ('36', '111', '222', '2023-12-18');
 INSERT INTO `message` VALUES ('37', 'skldnfesdkfn', 'sdfSDFSDFSDFsdf', '2023-12-18');
 INSERT INTO `message` VALUES ('38', 'asddasdasd', 'asdasdasd', '2023-12-18');
@@ -415,5 +415,5 @@ CREATE TABLE `teacher` (
 -- ----------------------------
 -- Records of teacher
 -- ----------------------------
-INSERT INTO `teacher` VALUES ('20081001', '张伟', '软件工程学院', '男', '13598458442', '13598458442@163.com', '123456', '423423283498', '讲师', '1');
+INSERT INTO `teacher` VALUES ('20081001', '张大伟', '软件工程学院', '男', '13598458442', '13598458442@163.com', '123456', '423423283498', '讲师', '1');
 INSERT INTO `teacher` VALUES ('20081002', '王大志', '软件工程学院', '男', '1231221312', '1231221312@163.com', '123456', '24241234', '讲师', '1');
